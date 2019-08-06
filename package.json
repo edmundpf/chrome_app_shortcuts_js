@@ -1,0 +1,30 @@
+{
+  "name": "chrome-app-shortcuts-js",
+  "version": "0.0.1",
+  "description": "Package: chrome_app_shortcuts_js",
+  "main": "./js/index.js",
+  "files": [
+    "/js"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha js/tests",
+    "compile": "grunt sync"
+  },
+  "author": "Edmund Pfeil {edmundpf@buffalo.edu}",
+  "homepage": "https://github.com/edmundpf/chrome_app_shortcuts_js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edmundpf/chrome_app_shortcuts_js"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*",
+    "mocha": "*"
+  }
+}

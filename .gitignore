@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Grunt Storage
+.grunt
+
+# Coffeescript Files
+Gruntfile.coffee
+src/
+
+# Editor Config
+.editorconfig
