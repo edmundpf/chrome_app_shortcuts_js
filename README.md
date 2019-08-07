@@ -1,6 +1,6 @@
 # Chrome App Shortcuts Js
 [![Build Status](https://travis-ci.org/edmundpf/chrome_app_shortcuts_js.svg?branch=master)](https://travis-ci.org/edmundpf/chrome_app_shortcuts_js)
-> Package: chrome_app_shortcuts_js
+> Create Chrome app shortcuts for Windows automatically by entering desired URL, written in Coffeescript ☕ (switch to dev branch for Coffeescript source)
 ## Install
 ``` bash
 # Clone Repo
