@@ -5,8 +5,8 @@ node_modules/
 .grunt
 
 # Coffeescript Files
-Gruntfile.coffee
-src/
+# Gruntfile.coffee
+# src/
 
 # Editor Config
 .editorconfig
