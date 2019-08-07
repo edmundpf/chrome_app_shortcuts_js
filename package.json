@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "test": "./node_modules/.bin/mocha js/tests",
-    "compile": "grunt sync"
+    "compile": "grunt sync",
+    "start": "node js/index.js"
   },
   "author": "Edmund Pfeil {edmundpf@buffalo.edu}",
   "homepage": "https://github.com/edmundpf/chrome_app_shortcuts_js",
@@ -17,7 +18,14 @@
     "url": "https://github.com/edmundpf/chrome_app_shortcuts_js"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "get-website-favicon": "0.0.7",
+    "image-downloader": "^3.5.0",
+    "jimp": "^0.6.4",
+    "png-to-ico": "^2.0.4",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2"
+  },
   "devDependencies": {
     "chai": "*",
     "grunt": "*",

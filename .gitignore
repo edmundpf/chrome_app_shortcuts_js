@@ -10,3 +10,7 @@ src/
 
 # Editor Config
 .editorconfig
+
+# Ignore Icons
+icons/*
+!icons/default.ico

@@ -10,5 +10,15 @@ $ npm install
 ```
 ## Usage
 ``` bash
-$ npm run start URL="YOUR_URL_HERE"
+# Save shortcut with icon scraped from website
+$ npm run start name "APP_NAME" url "APP_URL" desc "APP_DESCRIPTION"
+# Save shortcut with no icon
+$ npm run start name "APP_NAME" url "APP_URL" desc "APP_DESCRIPTION" icon "false"
 ```
+## Contributing/Development
+``` bash
+# Check out dev branch
+$ git checkout -b dev
+```
+* Coffeescript source is located in src/ folder
+* Run `grunt watch` to watch files and compile to JS automatically, or `grunt sync` to compile to JS manually
