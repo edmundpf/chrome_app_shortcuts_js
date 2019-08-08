@@ -10,7 +10,7 @@ img = require('image-downloader');
 
 fav = require('get-website-favicon');
 
-pngToIco = require('./pngToIco2');
+pngToIco = require('./pngToIco');
 
 bullet = require('./miscFunctions').bullet;
 
