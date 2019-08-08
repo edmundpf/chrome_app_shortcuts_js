@@ -12,7 +12,7 @@ main = ->
 	try
 		opts =
 			desc: ''
-			icon: true
+			hasIcon: true
 		args = process.argv.slice(2)
 
 		if process.platform != 'win32'
